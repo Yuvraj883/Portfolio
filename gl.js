@@ -35,7 +35,8 @@
         letters('h1');
         letters('h2');
         letters('h3');
-        letters('h4', function () {
+        letters('h4');
+        letters('h5', function () {
             document.getElementById('social').className = 'visible';
         });
 
